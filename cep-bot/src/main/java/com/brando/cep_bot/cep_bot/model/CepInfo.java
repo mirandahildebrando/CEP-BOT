@@ -5,6 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+
 // Entidade JPA para armazenar informações do CEP
 @Entity
 public class CepInfo {
@@ -12,12 +13,15 @@ public class CepInfo {
     //Campos da entidade
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
     private String cep;
     private String logradouro;
     private String bairro;
     private String localidade;
     private String uf;
+
+
 
     //Getters e Setters sem o set id para evitar alterações acidentais
 

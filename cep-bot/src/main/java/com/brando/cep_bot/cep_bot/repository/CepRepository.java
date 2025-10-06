@@ -5,6 +5,8 @@ import org.springframework.stereotype.Repository;
 
 import com.brando.cep_bot.cep_bot.model.CepInfo;
 
+
+// Repositório JPA para a entidade CepInfo
 @Repository
 public interface CepRepository extends JpaRepository<CepInfo, Long> {
 
