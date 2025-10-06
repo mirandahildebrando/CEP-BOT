@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.brando.cep_bot.cep_bot.service.CepService;
 
+
+// Controlador REST para iniciar o processamento dos CEPs
 @RestController
 public class CepController {
     private final CepService service;
